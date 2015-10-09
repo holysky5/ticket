@@ -1,0 +1,26 @@
+#login{background:#2778B3 url(../images/login/bg.jpg) repeat-x;font-size:12px;}
+#mainbox{margin:0 auto;width:962px;margin-left: auto;margin-right: auto;}
+.head{height:80px;position:relative;padding-top:40px;overflow:hidden;}
+.head .logo{float:left;}
+.head .des{float:left;font-size:25px;font-weight:bold;color:#fff;font-family:微软雅黑;}
+.head .text{position:absolute;bottom:8px;right:5px;color:#fff;font-size:16px;font-family:微软雅黑;text-align:right;line-height:1.5em;}
+.head .des span{font-size:14px;color:#e4e4e4}
+.content{padding-top:75px;background:#fff url(../images/login/top.jpg) center 0 no-repeat;position:relative;}
+.content .bot{background:#fff url(../images/login/bot.jpg) center bottom no-repeat;height:65px;}
+.form{padding-top:5px;position:absolute;right:85px;}
+.title{width:194px;height:44px;background:#fff url(../images/login/title.jpg) left top no-repeat;font-size:14px;font-weight:bold;color:#fff;text-align:center;line-height:30px}
+.label-title{width:70px;height: 20px;color:#333px;text-align:right;}
+.input-text{display:inline-block;background:#fff url(../images/login/input.png) repeat-x ; border: 1px solid #D0D0D0;font-family: Verdana,Geneva,sans-serif,"宋体";font-size: 12px;height: 20px; margin: 0 5px 0 0; padding: 2px 0 2px 5px;}
+.verify{display:inline-block;width:50px;height:22px;line-height:22px;background:#f5f5f5;text-align:center;border:1px solid #e3e3e3;font-size:14px;}
+.submit{margin:12px 0 0 12px;width:172px;height:36px;line-height:36px;text-align:center;font-size:14px;font-weight:bold;border:none;background:url(../images/login/login.jpg) no-repeat;color:#fff;cursor:pointer;}
+.picbox{width:505px;height:310px;top:70px;left:25px;}
+.copyright{color:#fff;text-align:center;padding:10px 0;font-family:Arial, Helvetica, sans-serif;}
+#verifyImg{cursor:pointer;margin-right:5px;}
+.vertify *{vertical-align:middle;*vertical-align:top;}
+.label-title{display:inline-block;}
+input[type=radio]{vertical-align:middle}
+
+
+label.error{  height:22px;}
+
+.asterisk{color:#f00;}

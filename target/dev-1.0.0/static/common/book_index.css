@@ -1,0 +1,192 @@
+#login{background:#2778B3 url(../images/login/bg.jpg) repeat-x;font-size:12px;}
+#mainbox{margin:0 auto;width:962px;margin-left: auto;margin-right: auto;}
+.head{height:80px;position:relative;padding-top:40px;overflow:hidden;}
+.head .logo{float:left;}
+.head .des{float:left;font-size:25px;font-weight:bold;color:#fff;font-family:微软雅黑;}
+.head .text{position:absolute;bottom:8px;right:5px;color:#fff;font-size:16px;font-family:微软雅黑;text-align:right;line-height:1.5em;}
+.head .des span{font-size:14px;color:#e4e4e4}
+.content{padding-top:25px;background:#fff url(../images/login/top.jpg) center 0 no-repeat;position:relative;}
+.content .bot{background:#fff url(../images/login/bot.jpg) center bottom no-repeat;height:65px;}
+.form{padding-top:5px;position:absolute;right:85px;}
+.verify{display:inline-block;width:50px;height:22px;line-height:22px;background:#f5f5f5;text-align:center;border:1px solid #e3e3e3;font-size:14px;}
+.submit{margin:12px 0 0 12px;width:172px;height:36px;line-height:36px;text-align:center;font-size:14px;font-weight:bold;border:none;background:url(../images/login/login.jpg) no-repeat;color:#fff;cursor:pointer;}
+.picbox{width:505px;height:310px;top:70px;left:25px;}
+.copyright{color:#fff;text-align:center;padding:10px 0;font-family:Arial, Helvetica, sans-serif;}
+#verifyImg{cursor:pointer;margin-right:5px;}
+.vertify *{vertical-align:middle;*vertical-align:top;}
+
+
+/*start index box*/
+
+.index_box .box_title{width:800px;height:80px;padding:0;background-color: #FFFFFF; }
+.index_box .box_title .text_content{text-align:center;padding:20px 0 10px 0;}
+.index_box .box_main{border:solid #D0D0D0;background:#ffffff;border-width:0 0 0 0;width:800px;;min-height:50px;overflow:hidden !important;}
+/*end index box*/
+
+
+
+/*Tooltips*/
+.tooltips_main{position:absolute;left:0;margin:-5px 0 0 2px;z-index:999;}
+.tooltips_box,.tooltips,.msg {display:inline-block; *display:inline; *zoom:1; position:relative; border-style:solid; border-color:#FF1F1F;}
+.tooltips,.msg {border-width:0 1px; *left:-2px; background-color:#FFCFCF;}
+.tooltips_box {border-width:1px; line-height:1.5;}
+.tooltips {margin:0 -2px;}
+.msg {margin:1px -2px; padding:0 6px;color:#2F2C2C;text-shadow:0 1px 0 #FFFFFF;font-size:12px;}
+.ov{background:url('../images/tri.gif') no-repeat scroll 0 0 transparent;position:absolute; left:30%; overflow:hidden; width:15px; height:15px;margin:16px 0 0 0;display:inline;}
+/*end Tooltips*/
+
+/*regist*/
+.register{float:left;padding:20px 20px;}
+.register .form_submit{float:left;border-bottom:1px solid #bfbfbf;width:920px;}
+.register .form_submit .fieldset{float:left; margin-top:10px;}
+.register .form_submit .fieldset .field-group{float:left;height:45px; margin-bottom:0px;}
+.register .form_submit .fieldset .field-group .title{float:left;width:160px;text-align:right;margin:4px 0 0 0;font-size:14px;}
+.register .form_submit .fieldset .field-group .control-group{float:left;width:350px;margin:0 10px;}
+.register .form_submit .fieldset .field-group .tips
+{
+    float: left;
+    width: 300px;
+    color: #006600;
+}
+ .div_submit{float:left;width:750px;margin:5px 5px; text-align:center;}
+/*end regist*/
+
+.fieldset .input_add_background{
+	background-position: center;
+	height:30px;
+	width:157px;
+	float:left;
+	margin:0 2px 0 0;
+	background-attachment: scroll;
+	background-color: transparent;
+	background-image: url(../images/input_short.gif);
+	background-repeat: no-repeat;
+}
+
+.fieldset .input_add_background input.register_input_ot{
+	font-size:18px;
+	height:20px;
+	outline:medium none;
+	width: 145px;
+	padding:1px;
+	margin:1px;
+}
+.fieldset .input_add_long_background{
+	background: url("../images/input_long.jpg") no-repeat scroll 100% 100% transparent;
+	background-position: center;
+	height: 30px;
+	width: 286px;
+	float: left;
+	margin: 0 0 15px 0;
+	display: inline;
+	vertical-align: middle;
+}
+
+.fieldset .input_add_long_background input.register_input{
+	font-size:18px;
+	height:20px;
+	outline:medium none;
+	width: 270px;
+	padding:1px;
+	margin:1px;
+}
+/*提交*/
+.btn_ok {
+	background:url('../images/OK_btn.png') no-repeat;
+	font-size:15px;font-weight:600;color:#FFFFFF;
+	
+	font-family:"Microsoft YaHei","SimHei","SimSun";
+	text-shadow:0 -1px 0 #535353;
+	padding:0 0 3px 0;
+	width:300px;
+	height:45px;
+	text-align:center;
+	font-weight:bold;
+	line-height:33px;
+	text-indent:20px; 
+}
+.btn_ok:hover {
+	OVERFLOW: hidden; HEIGHT: 45px; BACKGROUND: url(../images/OK_btn.png) no-repeat 0px -46px; WIDTH: 300px;
+}
+
+.book_pgadd {
+	height:30px;
+	BACKGROUND: url(../images/bg_16x16.gif) no-repeat 0px -1726px; FLOAT: right; FONT-WEIGHT: bold; PADDING-LEFT: 18px; MARGIN-LEFT: 10px; 
+}
+.del {
+	BACKGROUND: url(../images/bg_16x16.gif) no-repeat 0px -1696px; FLOAT: right; FONT-WEIGHT: bold; PADDING-LEFT: 18px; MARGIN-LEFT: 10px; 
+}
+
+.wrapper{width:100%;}
+/*通用样式--容器宽度值*/
+/*上圆角框通用设置样式，如果要运用多个不同颜色，以下6句不用重新变化--------------------------------*/
+.b1,.b2,.b3,.b4,.b5,.b6,.b7,.b8{height:1px; font-size:1px; overflow:hidden; display:block;}
+.b1,.b8{margin:0 5px;}
+.b2,.b7{margin:0 3px;border-right:2px solid; border-left:2px solid;}
+.b3,.b6{margin:0 2px;border-right:1px solid; border-left:1px solid;}
+.b4,.b5{margin:0 1px;border-right:1px solid; border-left:1px solid; height:2px;}
+.content {overflow:hidden;}
+
+/*颜色方案二,绿色边框----------------------------------------*/
+/*下面第一、二句决定边框颜色，第三句决定背景颜色*/
+/*边框色*/
+.color2 .b2,.color2 .b3,.color2 .b4,.color2 .b5,.color2 .b6,.color2 .b7,.color2 .content{border-color:#9BDF70;}
+.color2 .b1,.color2 .b8{background:#9BDF70;}
+/*背景色*/
+.color2 .b2,.color2 .b3,.color2 .b4,.color2 .b5,.color2 .b6,.color2 .b7,.color2 .content{background:#fff;}
+
+.book-content
+{
+    float:left;
+   z-index:-1;
+    position:static;
+    border-left: #3795D2 1px solid;
+    border-right: #3795D2 1px solid;
+    border-bottom: #3795D2 1px solid;
+    border-top: #3795D2 1px solid;
+    vertical-align: top;
+    height:100%;
+    margin-bottom:10px;
+}
+.book-head {
+	 LINE-HEIGHT: 26px;  WIDTH: 100%; BACKGROUND: url(../images/bbbb.jpg) repeat-x; HEIGHT: 28px;  margin-bottom:10px; width:920px;
+}
+.book-head STRONG {
+	PADDING-LEFT: 10px; COLOR: #fff
+}
+
+.province_city a { border:1px solid #53b9fb; float:left; text-decoration:none;display:inline-block; padding:0 5px; line-height:18px;color:#333; white-space:nowrap;}
+.province_city a:hover, a.select { background-color:#53b9fb; color:#fff; text-decoration:none; }
+
+table{ 
+font-size:12px; 
+} 
+table{ 
+table-layout:fixed; 
+empty-cells:show; 
+border-collapse: collapse; 
+margin:0 auto; 
+} 
+td{ 
+height:30px; 
+} 
+h1,h2,h3{ 
+font-size:12px; 
+margin:0; 
+padding:0; 
+} 
+.table{ 
+border:1px solid #cad9ea; 
+color:#666; 
+} 
+.table th { 
+background-repeat:repeat-x; 
+height:30px; 
+} 
+.table td,.table th{ 
+border:1px solid #cad9ea; 
+padding:0 1em 0; 
+} 
+.table tr.alter{ 
+background-color:#f5fafe; 
+} 

@@ -1,0 +1,35 @@
+<PWBRequest>
+	<transactionName>SEND_CODE_REQ</transactionName>
+	<header>
+		<application>SendCode</application>
+		<requestTime>2014-09-21</requestTime>
+	</header>
+	<identityInfo>
+		<corpCode>hsjykuaixian</corpCode>
+		<userName>kuaixian</userName>
+	</identityInfo>
+	<orderRequest>
+		<order>
+			<certificateNo>432524198801113011</certificateNo>
+			<linkName>廖鹏</linkName>
+			<linkMobile>13162796265</linkMobile>
+			<orderCode>8201409211000239060</orderCode>
+			<orderPrice>2.0</orderPrice>
+			<groupNo></groupNo>
+			<payMethod>third_vm</payMethod>
+			<familyOrders>
+				<familyOrder>
+					<orderCode>8201409211000239060</orderCode>
+					<price>2.0</price>
+					<quantity>3</quantity>
+					<totalPrice>2.0</totalPrice>
+					<occDate>2014-09-25</occDate>
+					<startDate></startDate>
+					<endDate></endDate>
+					<goodsCode>20140224011129</goodsCode>
+					<goodsName>成人票</goodsName>
+				</familyOrder>
+			</familyOrders>
+		</order>
+	</orderRequest>
+</PWBRequest>
