@@ -68,7 +68,6 @@
           <element id="library" level="project" name="Maven: com.thoughtworks.paranamer:paranamer:2.3" />
           <element id="library" level="project" name="Maven: org.xerial.snappy:snappy-java:1.0.4.1" />
           <element id="library" level="project" name="Maven: org.apache.lucene:lucene-facet:3.6.2" />
-          <element id="library" level="project" name="Maven: org.wltea:analyzer:2012_u6" />
           <element id="library" level="project" name="Maven: com.alibaba:druid:0.2.19" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.13" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:3.2.2.RELEASE" />
@@ -124,6 +123,7 @@
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.3.2" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:fluent-hc:4.3.5" />
           <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.1.39" />
+          <element id="library" level="project" name="Maven: org.wltea.ik-analyzer:ik-analyzer:3.2.8" />
         </element>
       </element>
       <element id="directory" name="META-INF">

@@ -80,7 +80,7 @@
 			<value>20000</value>
 		</property>
 		<property name="repeatInterval">
-			<value>300000</value>
+			<value>30000</value>
 		</property>
 	</bean>
 	<bean id="CronTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">

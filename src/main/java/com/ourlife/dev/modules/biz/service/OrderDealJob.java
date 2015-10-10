@@ -21,6 +21,7 @@ import com.ourlife.dev.terminal.TerminalService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;
@@ -40,8 +41,11 @@ public class OrderDealJob {
 	@Autowired
 	private OrderInfoService orderInfoService;
 
-	@Transactional(readOnly = false)
-	protected void execute() {
+	@Autowired
+	JpaTransactionManager tm;
+
+	@Transactional(timeout =5)
+	public void execute() {
 		logger.info("同步远程订单开始...");
 		TerminalService pftService = TerminalFactory.createTerminalService("0");
 		TerminalService bzService = TerminalFactory.createTerminalService("1");
@@ -50,6 +54,7 @@ public class OrderDealJob {
 
 		// 把平台未使用的订单从票付通同步回来
 		List<OrderInfo> list = orderInfoService.getOrdersByStatus("0");
+		logger.info("我执行不了");
 		for (OrderInfo order : list) {
 			try {
 				if (order.getSupplier().getCheckTerminal().equals("0")) {

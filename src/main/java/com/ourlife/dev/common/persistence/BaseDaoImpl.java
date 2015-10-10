@@ -5,31 +5,17 @@
  */
 package com.ourlife.dev.common.persistence;
 
-import java.io.IOException;
-import java.lang.reflect.Field;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
-
+import com.ourlife.dev.common.utils.Reflections;
+import com.ourlife.dev.common.utils.StringUtils;
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.queryParser.ParseException;
 import org.apache.lucene.queryParser.QueryParser;
 import org.apache.lucene.search.BooleanClause;
+import org.apache.lucene.search.BooleanClause.Occur;
 import org.apache.lucene.search.BooleanQuery;
 import org.apache.lucene.search.QueryWrapperFilter;
 import org.apache.lucene.search.Sort;
-import org.apache.lucene.search.BooleanClause.Occur;
-import org.apache.lucene.search.highlight.Formatter;
-import org.apache.lucene.search.highlight.Highlighter;
-import org.apache.lucene.search.highlight.InvalidTokenOffsetsException;
-import org.apache.lucene.search.highlight.QueryScorer;
-import org.apache.lucene.search.highlight.SimpleFragmenter;
-import org.apache.lucene.search.highlight.SimpleHTMLFormatter;
+import org.apache.lucene.search.highlight.*;
 import org.apache.lucene.util.Version;
 import org.hibernate.Criteria;
 import org.hibernate.Query;
@@ -50,8 +36,15 @@ import org.hibernate.transform.ResultTransformer;
 import org.hibernate.transform.Transformers;
 import org.wltea.analyzer.lucene.IKAnalyzer;
 
-import com.ourlife.dev.common.utils.Reflections;
-import com.ourlife.dev.common.utils.StringUtils;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import java.io.IOException;
+import java.lang.reflect.Field;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * DAO支持类实现
@@ -71,7 +64,7 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
 	 * 实体类类型(由构造方法自动赋值)
 	 */
 	private Class<?> entityClass;
-	
+
 	/**
 	 * 构造方法，根据实例类自动获取实体类类型
 	 */
@@ -89,7 +82,7 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
 	/**
 	 * 获取 Session
 	 */
-	public Session getSession(){  
+	public Session getSession(){
 	  return (Session) getEntityManager().getDelegate();
 	}
 
@@ -103,10 +96,10 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
 	/**
 	 * 清除缓存数据
 	 */
-	public void clear(){ 
+	public void clear(){
 		getSession().clear();
 	}
-	
+
 	// -------------- QL Query --------------
 
 	/**
@@ -120,7 +113,7 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
 	public <E> Page<E> find(Page<E> page, String qlString, Object... parameter){
 		// get count
     	if (!page.isDisabled() && !page.isNotCount()){
-	        String countQlString = "select count(*) " + removeSelect(removeOrders(qlString));  
+	        String countQlString = "select count(*) " + removeSelect(removeOrders(qlString));
 //	        page.setCount(Long.valueOf(createQuery(countQlString, parameter).uniqueResult().toString()));
 	        Query query = createQuery(countQlString, parameter);
 	        List<Object> list = query.list();
@@ -138,16 +131,16 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
 		if (StringUtils.isNotBlank(page.getOrderBy())){
 			ql += " order by " + page.getOrderBy();
 		}
-        Query query = createQuery(ql, parameter); 
+        Query query = createQuery(ql, parameter);
     	// set page
         if (!page.isDisabled()){
 	        query.setFirstResult(page.getFirstResult());
-	        query.setMaxResults(page.getMaxResults()); 
+	        query.setMaxResults(page.getMaxResults());
         }
         page.setList(query.list());
 		return page;
     }
-    
+
     /**
 	 * QL 查询
 	 * @param qlString
@@ -169,7 +162,7 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
 	public int update(String qlString, Object... parameter){
 		return createQuery(qlString, parameter).executeUpdate();
 	}
-	
+
 	/**
 	 * 创建 QL 查询对象
 	 * @param qlString
@@ -181,7 +174,7 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
 		setParameter(query, parameter);
 		return query;
 	}
-	
+
 	// -------------- SQL Query --------------
 
     /**
@@ -194,7 +187,7 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
 	public <E> Page<E> findBySql(Page<E> page, String sqlString, Object... parameter){
     	return findBySql(page, sqlString, null, parameter);
     }
-    
+
     /**
 	 * SQL 分页查询
 	 * @param page
@@ -207,7 +200,7 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
 	public <E> Page<E> findBySql(Page<E> page, String sqlString, Class<?> resultClass, Object... parameter){
 		// get count
     	if (!page.isDisabled() && !page.isNotCount()){
-	        String countSqlString = "select count(*) " + removeSelect(removeOrders(sqlString));  
+	        String countSqlString = "select count(*) " + removeSelect(removeOrders(sqlString));
 //	        page.setCount(Long.valueOf(createSqlQuery(countSqlString, parameter).uniqueResult().toString()));
 	        Query query = createSqlQuery(countSqlString, parameter);
 	        List<Object> list = query.list();
@@ -225,17 +218,17 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
 		if (StringUtils.isNotBlank(page.getOrderBy())){
 			sql += " order by " + page.getOrderBy();
 		}
-        SQLQuery query = createSqlQuery(sql, parameter); 
+        SQLQuery query = createSqlQuery(sql, parameter);
 		// set page
         if (!page.isDisabled()){
 	        query.setFirstResult(page.getFirstResult());
-	        query.setMaxResults(page.getMaxResults()); 
+	        query.setMaxResults(page.getMaxResults());
         }
         setResultTransformer(query, resultClass);
         page.setList(query.list());
 		return page;
     }
-	
+
 	/**
 	 * SQL 查询
 	 * @param sqlString
@@ -245,7 +238,7 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
 	public <E> List<E> findBySql(String sqlString, Object... parameter){
 		return findBySql(sqlString, null, parameter);
 	}
-	
+
 	/**
 	 * SQL 查询
 	 * @param sqlString
@@ -259,7 +252,7 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
 		setResultTransformer(query, resultClass);
 		return query.list();
 	}
-	
+
 	/**
 	 * SQL 更新
 	 * @param sqlString
@@ -269,7 +262,7 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
 	public int updateBySql(String sqlString, Object... parameter){
 		return createSqlQuery(sqlString, parameter).executeUpdate();
 	}
-	
+
 	/**
 	 * 创建 SQL 查询对象
 	 * @param sqlString
@@ -281,7 +274,7 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
 		setParameter(query, parameter);
 		return query;
 	}
-	
+
 	// -------------- Query Tools --------------
 
 	/**
@@ -300,7 +293,7 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
 			}
 		}
 	}
-	
+
 	/**
 	 * 设置查询参数
 	 * @param query
@@ -313,35 +306,35 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
 			}
 		}
 	}
-	
-    /** 
-     * 去除qlString的select子句。 
-     * @param hql 
-     * @return 
-     */  
-    private String removeSelect(String qlString){  
-        int beginPos = qlString.toLowerCase().indexOf("from");  
-        return qlString.substring(beginPos);  
-    }  
-      
-    /** 
-     * 去除hql的orderBy子句。 
-     * @param hql 
-     * @return 
-     */  
-    private String removeOrders(String qlString) {  
-        Pattern p = Pattern.compile("order\\s*by[\\w|\\W|\\s|\\S]*", Pattern.CASE_INSENSITIVE);  
-        Matcher m = p.matcher(qlString);  
-        StringBuffer sb = new StringBuffer();  
-        while (m.find()) {  
-            m.appendReplacement(sb, "");  
+
+    /**
+     * 去除qlString的select子句。
+     * @param hql
+     * @return
+     */
+    private String removeSelect(String qlString){
+        int beginPos = qlString.toLowerCase().indexOf("from");
+        return qlString.substring(beginPos);
+    }
+
+    /**
+     * 去除hql的orderBy子句。
+     * @param hql
+     * @return
+     */
+    private String removeOrders(String qlString) {
+        Pattern p = Pattern.compile("order\\s*by[\\w|\\W|\\s|\\S]*", Pattern.CASE_INSENSITIVE);
+        Matcher m = p.matcher(qlString);
+        StringBuffer sb = new StringBuffer();
+        while (m.find()) {
+            m.appendReplacement(sb, "");
         }
         m.appendTail(sb);
-        return sb.toString();  
-    } 
-	
+        return sb.toString();
+    }
+
 	// -------------- Criteria --------------
-	
+
 	/**
 	 * 分页查询
 	 * @param page
@@ -350,7 +343,7 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
 	public Page<T> find(Page<T> page) {
 		return find(page, createDetachedCriteria());
 	}
-	
+
 
 	/**
 	 * 使用检索标准对象分页查询
@@ -362,7 +355,7 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
 	public Page<T> find(Page<T> page, DetachedCriteria detachedCriteria) {
 		return find(page, detachedCriteria, Criteria.DISTINCT_ROOT_ENTITY);
 	}
-	
+
 	/**
 	 * 使用检索标准对象分页查询
 	 * @param page
@@ -384,7 +377,7 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
 		// set page
 		if (!page.isDisabled()){
 	        criteria.setFirstResult(page.getFirstResult());
-	        criteria.setMaxResults(page.getMaxResults()); 
+	        criteria.setMaxResults(page.getMaxResults());
 		}
 		// order by
 		if (StringUtils.isNotBlank(page.getOrderBy())){
@@ -413,7 +406,7 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
 	public List<T> find(DetachedCriteria detachedCriteria) {
 		return find(detachedCriteria, Criteria.DISTINCT_ROOT_ENTITY);
 	}
-	
+
 	/**
 	 * 使用检索标准对象查询
 	 * @param detachedCriteria
@@ -424,9 +417,9 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
 	public List<T> find(DetachedCriteria detachedCriteria, ResultTransformer resultTransformer) {
 		Criteria criteria = detachedCriteria.getExecutableCriteria(getSession());
 		criteria.setResultTransformer(resultTransformer);
-		return criteria.list(); 
+		return criteria.list();
 	}
-	
+
 	/**
 	 * 使用检索标准对象查询记录数
 	 * @param detachedCriteria
@@ -461,7 +454,7 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
 	/**
 	 * 创建与会话无关的检索标准对象
 	 * @param criterions Restrictions.eq("name", value);
-	 * @return 
+	 * @return
 	 */
 	public DetachedCriteria createDetachedCriteria(Criterion... criterions) {
 		DetachedCriteria dc = DetachedCriteria.forClass(entityClass);
@@ -470,16 +463,16 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
 		}
 		return dc;
 	}
-	
+
 	// -------------- Hibernate search --------------
-	
+
 	/**
 	 * 获取全文Session
 	 */
 	public FullTextSession getFullTextSession(){
 		return Search.getFullTextSession(getSession());
 	}
-	
+
 	/**
 	 * 建立索引
 	 */
@@ -490,7 +483,7 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
 			e.printStackTrace();
 		}
 	}
-	
+
 	/**
 	 * 全文检索
 	 * @param page 分页对象
@@ -501,15 +494,15 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
 	 */
 	@SuppressWarnings("unchecked")
 	public Page<T> search(Page<T> page, BooleanQuery query, BooleanQuery queryFilter, Sort sort){
-		
+
 		// 按关键字查询
 		FullTextQuery fullTextQuery = getFullTextSession().createFullTextQuery(query, entityClass);
-        
+
 		// 过滤无效的内容
 		if (queryFilter!=null){
 			fullTextQuery.setFilter(new CachingWrapperFilter(new QueryWrapperFilter(queryFilter)));
 		}
-        
+
         // 设置排序
 		if (sort!=null){
 			fullTextQuery.setSort(sort);
@@ -518,17 +511,17 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
 		// 定义分页
 		page.setCount(fullTextQuery.getResultSize());
 		fullTextQuery.setFirstResult(page.getFirstResult());
-		fullTextQuery.setMaxResults(page.getMaxResults()); 
+		fullTextQuery.setMaxResults(page.getMaxResults());
 
 		// 先从持久化上下文中查找对象，如果没有再从二级缓存中查找
-        fullTextQuery.initializeObjectsWith(ObjectLookupMethod.SECOND_LEVEL_CACHE, DatabaseRetrievalMethod.QUERY); 
-        
+        fullTextQuery.initializeObjectsWith(ObjectLookupMethod.SECOND_LEVEL_CACHE, DatabaseRetrievalMethod.QUERY);
+
 		// 返回结果
 		page.setList(fullTextQuery.list());
-        
+
 		return page;
 	}
-	
+
 	/**
 	 * 获取全文查询对象
 	 */
@@ -552,7 +545,7 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
 		try {
 			if (StringUtils.isNotBlank(q)){
 				for (String field : fields){
-					QueryParser parser = new QueryParser(Version.LUCENE_36, field, analyzer);   
+					QueryParser parser = new QueryParser(Version.LUCENE_36, field, analyzer);
 					query.add(parser.parse(q), Occur.SHOULD);
 				}
 			}
@@ -561,7 +554,7 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
 		}
 		return query;
 	}
-	
+
 	/**
 	 * 设置关键字高亮
 	 * @param query 查询对象
@@ -571,10 +564,10 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
 	 */
 	public List<T> keywordsHighlight(BooleanQuery query, List<T> list, int subLength, String... fields){
 		Analyzer analyzer = new IKAnalyzer();
-		Formatter formatter = new SimpleHTMLFormatter("<span class=\"highlight\">", "</span>");   
-		Highlighter highlighter = new Highlighter(formatter, new QueryScorer(query)); 
-		highlighter.setTextFragmenter(new SimpleFragmenter(subLength)); 
-		for(T entity : list){ 
+		Formatter formatter = new SimpleHTMLFormatter("<span class=\"highlight\">", "</span>");
+		Highlighter highlighter = new Highlighter(formatter, new QueryScorer(query));
+		highlighter.setTextFragmenter(new SimpleFragmenter(subLength));
+		for(T entity : list){
 			try {
 				for (String field : fields){
 					String text = StringUtils.replaceHtml((String)Reflections.invokeGetter(entity, field));
@@ -589,7 +582,7 @@ public class BaseDaoImpl<T> implements BaseDao<T> {
 				e.printStackTrace();
 			} catch (InvalidTokenOffsetsException e) {
 				e.printStackTrace();
-			} 
+			}
 		}
 		return list;
 	}

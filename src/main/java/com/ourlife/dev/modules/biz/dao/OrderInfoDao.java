@@ -13,7 +13,7 @@ import com.ourlife.dev.modules.biz.entity.OrderInfo;
 
 /**
  * 订单信息DAO接口
- * 
+ *
  * @author ourlife
  * @version 2014-05-31
  */
@@ -37,7 +37,7 @@ public interface OrderInfoDao extends OrderInfoDaoCustom,
 
 /**
  * DAO自定义接口
- * 
+ *
  * @author ourlife
  */
 interface OrderInfoDaoCustom extends BaseDao<OrderInfo> {
@@ -46,7 +46,7 @@ interface OrderInfoDaoCustom extends BaseDao<OrderInfo> {
 
 /**
  * DAO自定义接口实现
- * 
+ *
  * @author ourlife
  */
 @Component

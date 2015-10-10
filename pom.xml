@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
@@ -147,7 +148,6 @@
         <dependency>
 
 
-
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
             <version>${spring.version}</version>
@@ -218,12 +218,6 @@
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-search</artifactId>
             <version>${hibernate-search.version}</version>
-        </dependency>
-        <!-- 中文分词 -->
-        <dependency>
-            <groupId>org.wltea</groupId>
-            <artifactId>analyzer</artifactId>
-            <version>2012_u6</version>
         </dependency>
 
         <!-- connection pool -->
@@ -562,6 +556,11 @@
             <artifactId>fastjson</artifactId>
             <version>1.1.39</version>
         </dependency>
+        <dependency>
+            <groupId>org.wltea.ik-analyzer</groupId>
+            <artifactId>ik-analyzer</artifactId>
+            <version>3.2.8</version>
+        </dependency>
 
 
     </dependencies>
@@ -685,96 +684,103 @@
         </plugins>
     </build>
 
-    <profiles>
-        <!-- 刷新开发环境数据库 -->
-        <profile>
-            <id>refresh-db</id>
-            <dependencies>
-                <dependency>
-                    <groupId>org.dbunit</groupId>
-                    <artifactId>dbunit</artifactId>
-                    <version>2.4.8</version>
-                </dependency>
-                <dependency>
-                    <groupId>org.apache.poi</groupId>
-                    <artifactId>poi</artifactId>
-                    <version>3.2-FINAL</version>
-                </dependency>
-            </dependencies>
-            <build>
-                <plugins>
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-antrun-plugin</artifactId>
-                        <version>1.7</version>
-                        <configuration>
-                            <target>
+    <!--<profiles>-->
+        <!--&lt;!&ndash; 刷新开发环境数据库 &ndash;&gt;-->
+        <!--<profile>-->
+            <!--<id>refresh-db</id>-->
+            <!--<dependencies>-->
+                <!--<dependency>-->
+                    <!--<groupId>org.dbunit</groupId>-->
+                    <!--<artifactId>dbunit</artifactId>-->
+                    <!--<version>2.4.8</version>-->
+                <!--</dependency>-->
+                <!--<dependency>-->
+                    <!--<groupId>org.apache.poi</groupId>-->
+                    <!--<artifactId>poi</artifactId>-->
+                    <!--<version>3.2-FINAL</version>-->
+                <!--</dependency>-->
+            <!--</dependencies>-->
+            <!--<build>-->
+                <!--<plugins>-->
+                    <!--<plugin>-->
+                        <!--<groupId>org.apache.maven.plugins</groupId>-->
+                        <!--<artifactId>maven-antrun-plugin</artifactId>-->
+                        <!--<version>1.7</version>-->
+                        <!--<configuration>-->
+                            <!--<target>-->
 
-                                <!-- mysql -->
-                                <property name="sql.type" value="mysql"/>
-                                <property name="dbunit.datatype" value="org.dbunit.ext.mysql.MySqlDataTypeFactory"/>
+                                <!--&lt;!&ndash; mysql &ndash;&gt;-->
+                                <!--<property name="sql.type" value="mysql"/>-->
+                                <!--<property name="dbunit.datatype"-->
+                                          <!--value="org.dbunit.ext.mysql.MySqlDataTypeFactory"/>-->
 
-                                <!-- oracle
-                                <property name="sql.type" value="oracle" />
-                                <property name="dbunit.datatype" value="org.dbunit.ext.oracle.Oracle10DataTypeFactory" /> -->
+                                <!--&lt;!&ndash; oracle-->
+                                <!--<property name="sql.type" value="oracle" />-->
+                                <!--<property name="dbunit.datatype" value="org.dbunit.ext.oracle.Oracle10DataTypeFactory" /> &ndash;&gt;-->
 
-                                <!-- mssql
-                                <property name="sql.type" value="mssql" />
-                              <property name="dbunit.datatype" value="org.dbunit.ext.mssql.MsSqlDataTypeFactory" /> -->
+                                <!--&lt;!&ndash; mssql-->
+                                <!--<property name="sql.type" value="mssql" />-->
+                              <!--<property name="dbunit.datatype" value="org.dbunit.ext.mssql.MsSqlDataTypeFactory" /> &ndash;&gt;-->
 
-                                <property file="src/main/resources/application.properties"/>
-                                <sql driver="${jdbc.driver}" url="${jdbc.url}" userid="${jdbc.username}"
-                                     password="${jdbc.password}"
-                                     onerror="continue" encoding="${project.build.sourceEncoding}">
-                                    <classpath refid="maven.test.classpath"/>
-                                    <transaction src="bin/refresh-db/sys/dev_${sql.type}.sql"/>
-                                    <transaction src="bin/refresh-db/pm/dev_${sql.type}.sql"/>
-                                    <transaction src="bin/refresh-db/oa/dev_${sql.type}.sql"/>
-                                    <transaction
-                                            src="bin/refresh-db/activiti${activiti.version}/database/drop/activiti.${sql.type}.drop.engine.sql"/>
-                                    <transaction
-                                            src="bin/refresh-db/activiti${activiti.version}/database/drop/activiti.${sql.type}.drop.history.sql"/>
-                                    <transaction
-                                            src="bin/refresh-db/activiti${activiti.version}/database/drop/activiti.${sql.type}.drop.identity.sql"/>
-                                    <transaction
-                                            src="bin/refresh-db/activiti${activiti.version}/database/create/activiti.${sql.type}.create.engine.sql"/>
-                                    <transaction
-                                            src="bin/refresh-db/activiti${activiti.version}/database/create/activiti.${sql.type}.create.history.sql"/>
-                                    <transaction
-                                            src="bin/refresh-db/activiti${activiti.version}/database/create/activiti.${sql.type}.create.identity.sql"/>
-                                </sql>
+                                <!--<property file="src/main/resources/application.properties"/>-->
+                                <!--<sql driver="${jdbc.driver}" url="${jdbc.url}"-->
+                                     <!--userid="${jdbc.username}"-->
+                                     <!--password="${jdbc.password}"-->
+                                     <!--onerror="continue" encoding="${project.build.sourceEncoding}">-->
+                                    <!--<classpath refid="maven.test.classpath"/>-->
+                                    <!--<transaction src="bin/refresh-db/sys/dev_${sql.type}.sql"/>-->
+                                    <!--<transaction src="bin/refresh-db/pm/dev_${sql.type}.sql"/>-->
+                                    <!--<transaction src="bin/refresh-db/oa/dev_${sql.type}.sql"/>-->
+                                    <!--<transaction-->
+                                            <!--src="bin/refresh-db/activiti${activiti.version}/database/drop/activiti.${sql.type}.drop.engine.sql"/>-->
+                                    <!--<transaction-->
+                                            <!--src="bin/refresh-db/activiti${activiti.version}/database/drop/activiti.${sql.type}.drop.history.sql"/>-->
+                                    <!--<transaction-->
+                                            <!--src="bin/refresh-db/activiti${activiti.version}/database/drop/activiti.${sql.type}.drop.identity.sql"/>-->
+                                    <!--<transaction-->
+                                            <!--src="bin/refresh-db/activiti${activiti.version}/database/create/activiti.${sql.type}.create.engine.sql"/>-->
+                                    <!--<transaction-->
+                                            <!--src="bin/refresh-db/activiti${activiti.version}/database/create/activiti.${sql.type}.create.history.sql"/>-->
+                                    <!--<transaction-->
+                                            <!--src="bin/refresh-db/activiti${activiti.version}/database/create/activiti.${sql.type}.create.identity.sql"/>-->
+                                <!--</sql>-->
 
-                                <taskdef name="dbunit" classname="org.dbunit.ant.DbUnitTask"
-                                         classpathref="maven.test.classpath"/>
+                                <!--<taskdef name="dbunit" classname="org.dbunit.ant.DbUnitTask"-->
+                                         <!--classpathref="maven.test.classpath"/>-->
 
-                                <!-- mysql、mssql -->
-                                <dbunit driver="${jdbc.driver}" url="${jdbc.url}" userid="${jdbc.username}"
-                                        password="${jdbc.password}">
+                                <!--&lt;!&ndash; mysql、mssql &ndash;&gt;-->
+                                <!--<dbunit driver="${jdbc.driver}" url="${jdbc.url}"-->
+                                        <!--userid="${jdbc.username}"-->
+                                        <!--password="${jdbc.password}">-->
 
-                                    <!-- oracle
-                                    <dbunit driver="${jdbc.driver}" url="${jdbc.url}" userid="${jdbc.username}" password="${jdbc.password}"
-                                        schema="${jdbc.username}" > -->
+                                    <!--&lt;!&ndash; oracle-->
+                                    <!--<dbunit driver="${jdbc.driver}" url="${jdbc.url}" userid="${jdbc.username}" password="${jdbc.password}"-->
+                                        <!--schema="${jdbc.username}" > &ndash;&gt;-->
 
-                                    <dbconfig>
-                                        <property name="datatypeFactory" value="${dbunit.datatype}"/>
-                                    </dbconfig>
-                                    <classpath refid="maven.test.classpath"/>
-                                    <operation type="INSERT" src="bin/refresh-db/sys/dev_data.xls" format="xls"
-                                               transaction="true"/>
-                                    <operation type="INSERT" src="bin/refresh-db/pm/dev_data.xls" format="xls"
-                                               transaction="true"/>
-                                    <operation type="INSERT" src="bin/refresh-db/oa/dev_data.xls" format="xls"
-                                               transaction="true"/>
+                                    <!--<dbconfig>-->
+                                        <!--<property name="datatypeFactory"-->
+                                                  <!--value="${dbunit.datatype}"/>-->
+                                    <!--</dbconfig>-->
+                                    <!--<classpath refid="maven.test.classpath"/>-->
+                                    <!--<operation type="INSERT" src="bin/refresh-db/sys/dev_data.xls"-->
+                                               <!--format="xls"-->
+                                               <!--transaction="true"/>-->
+                                    <!--<operation type="INSERT" src="bin/refresh-db/pm/dev_data.xls"-->
+                                               <!--format="xls"-->
+                                               <!--transaction="true"/>-->
+                                    <!--<operation type="INSERT" src="bin/refresh-db/oa/dev_data.xls"-->
+                                               <!--format="xls"-->
+                                               <!--transaction="true"/>-->
 
-                                </dbunit>
+                                <!--</dbunit>-->
 
-                            </target>
-                        </configuration>
-                    </plugin>
-                </plugins>
-            </build>
-        </profile>
-    </profiles>
+                            <!--</target>-->
+                        <!--</configuration>-->
+                    <!--</plugin>-->
+                <!--</plugins>-->
+            <!--</build>-->
+        <!--</profile>-->
+    <!--</profiles>-->
 
     <!-- 开发者信息 -->
     <developers>
