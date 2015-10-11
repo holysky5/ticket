@@ -562,7 +562,6 @@
             <version>3.2.8</version>
         </dependency>
 
-
     </dependencies>
 
     <build>
@@ -589,40 +588,6 @@
                     <warName>${project.artifactId}</warName>
                 </configuration>
             </plugin>
-
-            <!--&lt;!&ndash; Eclipse 插件 &ndash;&gt;-->
-            <!--<plugin>-->
-            <!--<groupId>org.apache.maven.plugins</groupId>-->
-            <!--<artifactId>maven-eclipse-plugin</artifactId>-->
-            <!--<version>2.9</version>-->
-            <!--<configuration>-->
-            <!--<downloadSources>false</downloadSources>-->
-            <!--<downloadJavadocs>false</downloadJavadocs>-->
-            <!--<wtpversion>2.0</wtpversion>-->
-            <!--&lt;!&ndash; 增加设置项目encoding的文件 &ndash;&gt;-->
-            <!--<additionalConfig>-->
-            <!--<file>-->
-            <!--<name>.settings/org.eclipse.core.resources.prefs</name>-->
-            <!--<content>-->
-            <!--<![CDATA[eclipse.preferences.version=1${line.separator}encoding/<project>=${project.build.sourceEncoding}${line.separator}]]>-->
-            <!--</content>-->
-            <!--</file>-->
-            <!--</additionalConfig>-->
-            <!--<additionalProjectnatures>-->
-            <!--<projectnature>org.springframework.ide.eclipse.core.springnature</projectnature>-->
-            <!--</additionalProjectnatures>-->
-            <!--</configuration>-->
-            <!--</plugin>-->
-
-            <!-- tomcat6插件 -->
-            <!--<plugin>-->
-            <!--<groupId>org.apache.tomcat.maven</groupId>-->
-            <!--<artifactId>tomcat6-maven-plugin</artifactId>-->
-            <!--<version>${tomcat.version}</version>-->
-            <!--<configuration>-->
-            <!--<path>/${project.artifactId}</path>-->
-            <!--</configuration>-->
-            <!--</plugin>-->
 
             <!--&lt;!&ndash; tomcat7插件 &ndash;&gt;-->
             <!--<plugin>-->
@@ -653,34 +618,6 @@
                 <artifactId>maven-resources-plugin</artifactId>
                 <version>2.6</version>
             </plugin>
-
-            <!-- install插件 -->
-            <!--<plugin>-->
-            <!--<groupId>org.apache.maven.plugins</groupId>-->
-            <!--<artifactId>maven-install-plugin</artifactId>-->
-            <!--<version>2.4</version>-->
-            <!--</plugin>-->
-
-            <!-- clean插件 -->
-            <!--<plugin>-->
-            <!--<groupId>org.apache.maven.plugins</groupId>-->
-            <!--<artifactId>maven-clean-plugin</artifactId>-->
-            <!--<version>2.5</version>-->
-            <!--</plugin>-->
-
-            <!-- ant插件 -->
-            <!--<plugin>-->
-            <!--<groupId>org.apache.maven.plugins</groupId>-->
-            <!--<artifactId>maven-antrun-plugin</artifactId>-->
-            <!--<version>1.7</version>-->
-            <!--</plugin>-->
-
-            <!-- dependency插件 -->
-            <!--<plugin>-->
-            <!--<groupId>org.apache.maven.plugins</groupId>-->
-            <!--<artifactId>maven-dependency-plugin</artifactId>-->
-            <!--<version>2.5.1</version>-->
-            <!--</plugin>-->
         </plugins>
     </build>
 
