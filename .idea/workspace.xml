@@ -2,13 +2,370 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="8bf5edfd-80b2-46f4-95be-9ee54e69f4d3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_wltea_analyzer_2012_u6.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/modules/biz/orderPrint.jsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/activation-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/analyzer-2012_u6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/antlr-2.7.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/apache-ant-zip-2.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/asm-3.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/aspectjrt-1.7.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/aspectjweaver-1.6.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/avro-1.6.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/axis-1.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/axis-jaxrpc-1.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/axis-saaj-1.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/axis-wsdl4j-1.5.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/cglib-2.2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/ckfinder-2.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/ckfinderplugin-fileeditor-2.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/ckfinderplugin-imageresize-2.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/classmate-0.8.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/commons-beanutils-1.8.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/commons-codec-1.8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/commons-discovery-0.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/commons-fileupload-1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/commons-httpclient-3.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/commons-io-2.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/commons-lang-2.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/commons-lang3-3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/commons-logging-1.0.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/dom4j-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/dozer-5.4.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/druid-0.2.19.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/ehcache-core-2.6.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/ehcache-web-2.0.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/fastjson-1.1.39.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/fluent-hc-4.3.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/freemarker-2.3.19.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/geronimo-jaxrpc_1.1_spec-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/guava-14.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/hamcrest-core-1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/hibernate-commons-annotations-4.0.1.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/hibernate-core-4.1.12.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/hibernate-ehcache-4.1.12.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/hibernate-entitymanager-4.1.12.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/hibernate-search-4.2.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/hibernate-search-analyzers-4.2.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/hibernate-search-engine-4.2.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/hibernate-search-orm-4.2.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/hibernate-validator-5.0.1.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/httpclient-4.3.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/httpcore-4.3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/jackson-annotations-2.2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/jackson-core-2.2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/jackson-core-asl-1.8.8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/jackson-databind-2.2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/jackson-mapper-asl-1.8.8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/jackson-module-jaxb-annotations-2.2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/javassist-3.15.0-GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/jaxen-1.1.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/jboss-logging-3.1.0.GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/jcl-over-slf4j-1.7.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/jul-to-slf4j-1.7.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/junit-4.11.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/log4j-1.2.17.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/log4jdbc-remix-0.2.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/lucene-analyzers-3.6.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/lucene-core-3.6.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/lucene-facet-3.6.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/lucene-grouping-3.6.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/lucene-highlighter-3.6.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/lucene-kuromoji-3.6.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/lucene-memory-3.6.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/lucene-misc-3.6.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/lucene-phonetic-3.6.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/lucene-smartcn-3.6.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/lucene-spatial-3.6.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/lucene-spellchecker-3.6.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/lucene-stempel-3.6.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/mail-1.4.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/mysql-connector-java-5.1.13.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/paranamer-2.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/poi-3.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/poi-ooxml-3.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/poi-ooxml-schemas-3.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/quartz-1.8.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/shiro-core-1.2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/shiro-ehcache-1.2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/shiro-spring-1.2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/shiro-web-1.2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/sitemesh-2.4.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/slf4j-api-1.7.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/slf4j-log4j12-1.7.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/snappy-java-1.0.4.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/solr-analysis-extras-3.6.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/solr-core-3.6.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/solr-solrj-3.6.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/spring-aop-3.2.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/spring-beans-3.2.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/spring-context-3.2.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/spring-context-support-3.2.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/spring-core-3.2.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/spring-data-commons-1.5.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/spring-data-jpa-1.3.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/spring-expression-3.2.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/spring-jdbc-3.2.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/spring-orm-3.2.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/spring-test-3.2.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/spring-tx-3.2.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/spring-web-3.2.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/spring-webmvc-3.2.2.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/standard-1.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/stax-api-1.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/thumbnailator-0.4.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/xml-apis-1.0.b2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/lib/xmlbeans-2.3.0.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/utils/AESCipherUtil.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/utils/AESCipherUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/utils/AESCipherUtil.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/utils/AESCipherUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/alipay/util/AlipayCore.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/alipay/util/AlipayCore.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/alipay/util/AlipayCore.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/alipay/util/AlipayCore.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/alipay/util/AlipayNotify.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/alipay/util/AlipayNotify.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/alipay/util/AlipayNotify.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/alipay/util/AlipayNotify.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/alipay/util/AlipaySubmit.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/alipay/util/AlipaySubmit.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/alipay/util/AlipaySubmit.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/alipay/util/AlipaySubmit.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/entity/Area.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/entity/Area.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/entity/Area.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/entity/Area.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/service/AreaService.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/service/AreaService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/service/AreaService.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/service/AreaService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/excel/fieldtype/AreaType.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/excel/fieldtype/AreaType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/excel/fieldtype/AreaType.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/excel/fieldtype/AreaType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/terminal/bz/BZTerminalService.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/terminal/bz/BZTerminalService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/terminal/bz/BZTerminalService.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/terminal/bz/BZTerminalService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/web/BalanceHisController.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/web/BalanceHisController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/web/BalanceHisController.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/web/BalanceHisController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/service/BalanceHisService.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/service/BalanceHisService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/service/BalanceHisService.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/service/BalanceHisService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/web/BaseController$1.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/web/BaseController$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/web/BaseController$1.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/web/BaseController$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/web/BaseController$2.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/web/BaseController$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/web/BaseController$2.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/web/BaseController$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/web/BaseController.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/web/BaseController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/web/BaseController.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/web/BaseController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/persistence/BaseDaoImpl.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/persistence/BaseDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/persistence/BaseDaoImpl.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/persistence/BaseDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/ourlife/dev/common/persistence/BaseDaoTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/ourlife/dev/common/persistence/BaseDaoTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/service/BaseService.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/service/BaseService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/service/BaseService.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/service/BaseService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/mapper/BeanMapper.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/mapper/BeanMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/mapper/BeanMapper.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/mapper/BeanMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/beanvalidator/BeanValidators.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/beanvalidator/BeanValidators.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/beanvalidator/BeanValidators.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/beanvalidator/BeanValidators.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/web/CKFinderConfig.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/web/CKFinderConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/web/CKFinderConfig.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/web/CKFinderConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/CacheUtils.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/CacheUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/CacheUtils.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/CacheUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/Collections3.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/Collections3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/Collections3.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/Collections3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/CookieUtils.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/CookieUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/CookieUtils.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/CookieUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/security/Cryptos.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/security/Cryptos.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/security/Cryptos.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/security/Cryptos.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/persistence/DataEntity.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/persistence/DataEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/persistence/DataEntity.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/persistence/DataEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/DateUtils.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/DateUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/DateUtils.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/DateUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/service/DictService.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/service/DictService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/service/DictService.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/service/DictService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/utils/DictUtils.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/utils/DictUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/utils/DictUtils.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/utils/DictUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/security/Digests.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/security/Digests.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/security/Digests.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/security/Digests.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/entity/Direct.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/entity/Direct.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/entity/Direct.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/entity/Direct.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/web/DirectBalanceHisController.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/web/DirectBalanceHisController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/web/DirectBalanceHisController.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/web/DirectBalanceHisController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/service/DirectBalanceHisService.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/service/DirectBalanceHisService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/service/DirectBalanceHisService.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/service/DirectBalanceHisService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/web/DirectController.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/web/DirectController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/web/DirectController.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/web/DirectController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/service/DirectService.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/service/DirectService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/service/DirectService.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/service/DirectService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/web/DistributorController.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/web/DistributorController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/web/DistributorController.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/web/DistributorController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/service/DistributorService.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/service/DistributorService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/service/DistributorService.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/service/DistributorService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/Encodes.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/Encodes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/Encodes.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/Encodes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/Exceptions.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/Exceptions.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/Exceptions.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/Exceptions.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/excel/ExportExcel$1.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/excel/ExportExcel$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/excel/ExportExcel$1.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/excel/ExportExcel$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/excel/ExportExcel.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/excel/ExportExcel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/excel/ExportExcel.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/excel/ExportExcel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/web/FileUploadController.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/web/FileUploadController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/web/FileUploadController.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/web/FileUploadController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/FileUtils.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/FileUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/FileUtils.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/FileUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/security/FormAuthenticationFilter.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/security/FormAuthenticationFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/security/FormAuthenticationFilter.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/security/FormAuthenticationFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/generate/Generate.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/generate/Generate.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/generate/Generate.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/generate/Generate.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/terminal/bz/GetmesxmlBindingStub.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/terminal/bz/GetmesxmlBindingStub.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/terminal/bz/GetmesxmlBindingStub.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/terminal/bz/GetmesxmlBindingStub.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/terminal/bz/GetmesxmlLocator.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/terminal/bz/GetmesxmlLocator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/terminal/bz/GetmesxmlLocator.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/terminal/bz/GetmesxmlLocator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/security/shiro/HasAnyPermissionsTag.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/security/shiro/HasAnyPermissionsTag.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/security/shiro/HasAnyPermissionsTag.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/security/shiro/HasAnyPermissionsTag.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/web/HomeController.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/web/HomeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/web/HomeController.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/web/HomeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/alipay/util/httpClient/HttpProtocolHandler.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/alipay/util/httpClient/HttpProtocolHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/alipay/util/httpClient/HttpProtocolHandler.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/alipay/util/httpClient/HttpProtocolHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/alipay/util/httpClient/HttpRequest.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/alipay/util/httpClient/HttpRequest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/alipay/util/httpClient/HttpRequest.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/alipay/util/httpClient/HttpRequest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/alipay/util/httpClient/HttpResultType.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/alipay/util/httpClient/HttpResultType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/alipay/util/httpClient/HttpResultType.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/alipay/util/httpClient/HttpResultType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/web/IdentityController.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/web/IdentityController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/web/IdentityController.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/web/IdentityController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/excel/ImportExcel$1.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/excel/ImportExcel$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/excel/ImportExcel$1.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/excel/ImportExcel$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/excel/ImportExcel.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/excel/ImportExcel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/excel/ImportExcel.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/excel/ImportExcel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/terminal/bz/JTTTerminalService$JTT_RS.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/terminal/bz/JTTTerminalService$JTT_RS.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/terminal/bz/JTTTerminalService$JTT_RS.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/terminal/bz/JTTTerminalService$JTT_RS.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/terminal/bz/JTTTerminalService.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/terminal/bz/JTTTerminalService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/terminal/bz/JTTTerminalService.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/terminal/bz/JTTTerminalService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/mapper/JaxbMapper.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/mapper/JaxbMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/mapper/JaxbMapper.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/mapper/JaxbMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/mapper/JsonMapper.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/mapper/JsonMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/mapper/JsonMapper.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/mapper/JsonMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/log/Log4jManager.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/log/Log4jManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/log/Log4jManager.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/log/Log4jManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/interceptor/LogInterceptor.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/interceptor/LogInterceptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/interceptor/LogInterceptor.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/interceptor/LogInterceptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/web/LoginController.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/web/LoginController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/web/LoginController.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/web/LoginController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/terminal/zyb/MD5.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/terminal/zyb/MD5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/terminal/zyb/MD5.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/terminal/zyb/MD5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/entity/Menu.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/entity/Menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/entity/Menu.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/entity/Menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/entity/Notice.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/entity/Notice.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/entity/Notice.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/entity/Notice.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/service/NoticeService.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/service/NoticeService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/service/NoticeService.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/service/NoticeService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/entity/Office.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/entity/Office.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/entity/Office.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/entity/Office.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/web/OfficeController.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/web/OfficeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/web/OfficeController.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/web/OfficeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/service/OfficeService.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/service/OfficeService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/service/OfficeService.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/service/OfficeService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/excel/fieldtype/OfficeType.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/excel/fieldtype/OfficeType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/excel/fieldtype/OfficeType.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/excel/fieldtype/OfficeType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/service/OrderDealJob.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/service/OrderDealJob.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/service/OrderDealJob.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/service/OrderDealJob.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/web/OrderInfoController.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/web/OrderInfoController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/web/OrderInfoController.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/web/OrderInfoController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/web/OrderInfoDirectController.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/web/OrderInfoDirectController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/web/OrderInfoDirectController.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/web/OrderInfoDirectController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/service/OrderInfoService.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/service/OrderInfoService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/service/OrderInfoService.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/service/OrderInfoService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/service/OrderLogService.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/service/OrderLogService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/service/OrderLogService.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/service/OrderLogService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/terminal/pft/PFTMXBindingStub.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/terminal/pft/PFTMXBindingStub.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/terminal/pft/PFTMXBindingStub.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/terminal/pft/PFTMXBindingStub.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/terminal/pft/PFTMXLocator.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/terminal/pft/PFTMXLocator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/terminal/pft/PFTMXLocator.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/terminal/pft/PFTMXLocator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/terminal/pft/PFTTerminalService.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/terminal/pft/PFTTerminalService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/terminal/pft/PFTTerminalService.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/terminal/pft/PFTTerminalService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/persistence/Page.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/persistence/Page.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/persistence/Page.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/persistence/Page.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/entity/Product.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/entity/Product.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/entity/Product.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/entity/Product.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/web/ProductController.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/web/ProductController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/web/ProductController.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/web/ProductController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/entity/ProductHistory.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/entity/ProductHistory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/entity/ProductHistory.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/entity/ProductHistory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/service/ProductHistoryService.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/service/ProductHistoryService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/service/ProductHistoryService.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/service/ProductHistoryService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/service/ProductService.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/service/ProductService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/service/ProductService.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/service/ProductService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/PropertiesLoader.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/PropertiesLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/PropertiesLoader.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/PropertiesLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/service/RechargeConfirmService.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/service/RechargeConfirmService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/service/RechargeConfirmService.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/service/RechargeConfirmService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/Reflections.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/Reflections.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/Reflections.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/Reflections.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/entity/Role.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/entity/Role.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/entity/Role.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/entity/Role.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/web/RoleController.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/web/RoleController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/web/RoleController.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/web/RoleController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/excel/fieldtype/RoleListType.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/excel/fieldtype/RoleListType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/excel/fieldtype/RoleListType.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/excel/fieldtype/RoleListType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/terminal/sys/SYSTerminalService.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/terminal/sys/SYSTerminalService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/terminal/sys/SYSTerminalService.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/terminal/sys/SYSTerminalService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/web/ScenicDetailController.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/web/ScenicDetailController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/web/ScenicDetailController.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/web/ScenicDetailController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/service/ScenicDetailService.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/service/ScenicDetailService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/service/ScenicDetailService.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/service/ScenicDetailService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/web/Servlets.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/web/Servlets.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/web/Servlets.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/web/Servlets.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/terminal/sms/SmsService.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/terminal/sms/SmsService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/terminal/sms/SmsService.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/terminal/sms/SmsService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/SpringContextHolder.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/SpringContextHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/SpringContextHolder.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/SpringContextHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/StringUtils.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/utils/StringUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/StringUtils.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/utils/StringUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/entity/Supplier.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/entity/Supplier.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/entity/Supplier.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/entity/Supplier.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/web/SupplierController.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/web/SupplierController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/web/SupplierController.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/web/SupplierController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/service/SupplierService.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/biz/service/SupplierService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/service/SupplierService.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/biz/service/SupplierService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/service/SysIdentityService.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/service/SysIdentityService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/service/SysIdentityService.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/service/SysIdentityService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/entity/SysUploadInfo.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/entity/SysUploadInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/entity/SysUploadInfo.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/entity/SysUploadInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/service/SysUploadInfoService.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/service/SysUploadInfoService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/service/SysUploadInfoService.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/service/SysUploadInfoService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/security/SystemAuthorizingRealm.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/security/SystemAuthorizingRealm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/security/SystemAuthorizingRealm.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/security/SystemAuthorizingRealm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/service/SystemService.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/service/SystemService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/service/SystemService.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/service/SystemService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/book/web/TuanBookController.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/book/web/TuanBookController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/book/web/TuanBookController.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/book/web/TuanBookController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/book/web/TuanOrderController.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/book/web/TuanOrderController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/book/web/TuanOrderController.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/book/web/TuanOrderController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/book/service/TuanOrderService.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/book/service/TuanOrderService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/book/service/TuanOrderService.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/book/service/TuanOrderService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/book/entity/TuanProduct.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/book/entity/TuanProduct.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/book/entity/TuanProduct.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/book/entity/TuanProduct.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/book/web/TuanProductController.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/book/web/TuanProductController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/book/web/TuanProductController.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/book/web/TuanProductController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/book/service/TuanProductService.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/book/service/TuanProductService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/book/service/TuanProductService.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/book/service/TuanProductService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/entity/User.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/entity/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/entity/User.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/entity/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/web/UserController.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/web/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/web/UserController.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/web/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/utils/UserUtils.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/modules/sys/utils/UserUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/utils/UserUtils.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/modules/sys/utils/UserUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/alipay/util/UtilDate.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/alipay/util/UtilDate.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/alipay/util/UtilDate.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/alipay/util/UtilDate.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/servlet/ValidateCodeServlet.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/common/servlet/ValidateCodeServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/servlet/ValidateCodeServlet.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/common/servlet/ValidateCodeServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/terminal/zyb/ZYBTerminalService.class" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/ourlife/dev/terminal/zyb/ZYBTerminalService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/terminal/zyb/ZYBTerminalService.class" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/com/ourlife/dev/terminal/zyb/ZYBTerminalService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev.war" afterPath="$PROJECT_DIR$/target/dev.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/dev-1.0.0/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ourlife/dev/modules/biz/service/OrderDealJob.java" afterPath="$PROJECT_DIR$/src/main/java/com/ourlife/dev/modules/biz/service/OrderDealJob.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ourlife/dev/modules/biz/web/OrderInfoController.java" afterPath="$PROJECT_DIR$/src/main/java/com/ourlife/dev/modules/biz/web/OrderInfoController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/application.properties" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/application.properties" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/layouts/default.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/layouts/default.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/views/layouts/default.jsp" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/views/layouts/default.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/head.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/head.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/views/include/head.jsp" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/views/include/head.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/log4j.properties" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/log4j.properties" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/classes/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/modules/biz/orderInfoList.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/modules/biz/orderInfoList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/views/modules/biz/orderInfoList.jsp" afterPath="$PROJECT_DIR$/target/dev-1.0.0/WEB-INF/views/modules/biz/orderInfoList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dev_ticket.iws" />
@@ -59,10 +416,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.123046875">
+            <state vertical-scroll-proportion="0.0">
               <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
@@ -73,7 +430,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+              <caret line="134" column="40" selection-start-line="134" selection-start-column="40" selection-end-line="134" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -89,23 +446,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ourlife/dev/common/persistence/BaseDaoImpl.java">
+      <file leaf-file-name="decorators.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/decorators.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="320" column="23" selection-start-line="320" selection-start-column="23" selection-end-line="320" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dev.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev.iml">
+      <file leaf-file-name="default.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/layouts/default.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-7.0">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -113,24 +468,41 @@
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.689655">
+            <state vertical-scroll-proportion="0.0">
               <caret line="620" column="0" selection-start-line="620" selection-start-column="0" selection-end-line="620" selection-end-column="0" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="home.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/modules/biz/home.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.7777777">
+              <caret line="189" column="35" selection-start-line="189" selection-start-column="35" selection-end-line="189" selection-end-column="35" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ourlife/dev/common/utils/FileUtils.java">
+      <file leaf-file-name="JTTTerminalService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ourlife/dev/terminal/bz/JTTTerminalService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="87" column="23" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
+              <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#setDdh#0;class#RsOfQueryOrder#0;class#JTTTerminalService#0" expanded="true" />
+                <element signature="method#setStatus#0;class#RsOfQueryOrder#0;class#JTTTerminalService#0" expanded="true" />
+                <element signature="method#setFzcode#0;class#RsOfQueryOrder#0;class#JTTTerminalService#0" expanded="true" />
+                <element signature="method#setIsconsume#0;class#RsOfQueryOrder#0;class#JTTTerminalService#0" expanded="true" />
+                <element signature="method#setConsumetime#0;class#RsOfQueryOrder#0;class#JTTTerminalService#0" expanded="true" />
+                <element signature="method#setUsednum#0;class#RsOfQueryOrder#0;class#JTTTerminalService#0" expanded="true" />
+                <element signature="method#setCreatenum#0;class#RsOfQueryOrder#0;class#JTTTerminalService#0" expanded="true" />
+                <element signature="method#setIspay#0;class#RsOfQueryOrder#0;class#JTTTerminalService#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,7 +512,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -150,7 +522,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ourlife/dev/modules/biz/service/OrderDealJob.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -160,30 +532,41 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ourlife/dev/modules/biz/entity/OrderInfo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderInfoDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ourlife/dev/modules/biz/dao/OrderInfoDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderInfoService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ourlife/dev/modules/biz/service/OrderInfoService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="375" column="0" selection-start-line="375" selection-start-column="0" selection-end-line="375" selection-end-column="0" />
+              <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
               <folding>
-                <element signature="e#11530#11531#0" expanded="true" />
+                <element signature="e#6965#6966#0" expanded="true" />
+                <element signature="e#6992#6993#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderInfoController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ourlife/dev/modules/biz/web/OrderInfoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="656" column="69" selection-start-line="656" selection-start-column="69" selection-end-line="656" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="orderInfoList.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/modules/biz/orderInfoList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6942149">
+              <caret line="182" column="54" selection-start-line="182" selection-start-column="54" selection-end-line="182" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="orderPrint.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/modules/biz/orderPrint.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="27.222221">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -191,8 +574,18 @@
       <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7f627b12-bc43-40fc-8d29-78b172f2bd52/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.4666667">
-              <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+            <state vertical-scroll-proportion="-14.6">
+              <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sitemesh-decorator.tld" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/opensymphony/sitemesh/2.4.2/sitemesh-2.4.2.jar!/META-INF/sitemesh-decorator.tld">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -201,38 +594,18 @@
       <file leaf-file-name="spring-mvc.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
+            <state vertical-scroll-proportion="-9.333333">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TerminalFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ourlife/dev/terminal/TerminalFactory.java">
+      <file leaf-file-name="Supplier.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ourlife/dev/modules/biz/entity/Supplier.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TerminalService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ourlife/dev/terminal/TerminalService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="26" />
+              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -243,9 +616,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -265,10 +638,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ourlife/dev/modules/biz/service/RechargeConfirmService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ourlife/dev/terminal/TerminalService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ourlife/dev/modules/biz/entity/OrderLog.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ourlife/dev/modules/sys/service/SysIdentityService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ourlife/dev/terminal/TerminalFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alipay/util/httpClient/HttpProtocolHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alipay/util/httpClient/HttpRequest.java" />
@@ -277,25 +646,29 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/modules/biz/orderInfoForm.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/ourlife/dev/terminal/bz/JTDTerminalService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ourlife/dev/modules/biz/service/OrderInfoService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ourlife/dev/modules/biz/web/OrderInfoController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ourlife/dev/terminal/bz/BZTerminalService.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d6fc9309-d1bf-4a96-997c-79213a35bd43/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/ourlife/dev/terminal/sms/SmsService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ourlife/dev/modules/biz/entity/OrderInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ourlife/dev/terminal/bz/JTTTerminalService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ourlife/dev/common/utils/FileUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ourlife/dev/common/persistence/BaseDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ourlife/dev/modules/biz/dao/OrderInfoDao.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b13078fd-a3ea-4599-8de9-6d7c14a00b28/console.sql" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ourlife/dev/modules/biz/service/OrderDealJob.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7f627b12-bc43-40fc-8d29-78b172f2bd52/console.sql" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ourlife/dev/modules/biz/service/OrderDealJob.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ourlife/dev/modules/biz/web/OrderInfoController.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7f627b12-bc43-40fc-8d29-78b172f2bd52/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ourlife/dev/modules/biz/entity/OrderInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/head.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/layouts/default.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/modules/biz/orderPrint.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/modules/biz/orderInfoList.jsp" />
       </list>
     </option>
   </component>
@@ -351,9 +724,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="19" />
+    <option name="x" value="-53" />
     <option name="y" value="23" />
-    <option name="width" value="1398" />
+    <option name="width" value="1397" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -380,8 +753,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -461,6 +832,108 @@
               <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev_ticket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ticket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev_ticket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ticket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev_ticket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ticket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -504,18 +977,20 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="SearchEverywhereHistoryKey" value="web&#9;FILE&#9;file:///Users/holysky/workspaces/dev_ticket/src/main/webapp/WEB-INF/web.xml" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15527344" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="options.lastSelected" value="com.zeroturnaround.javarebel.idea.plugin.settings.startup.StartupConfigurable" />
@@ -525,6 +1000,7 @@
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="Console.TableResult.DefaultCopyAction" value="SQL Insert Statements" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -849,6 +1325,9 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Unknown" factoryName="Unknown">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -860,7 +1339,8 @@
     </configuration>
     <configuration default="false" name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.62" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
       <option name="COMMON_VM_ARGUMENTS" value="-Xmx800m -XX:MaxPermSize=300m" />
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
         <artifact name="dev:war exploded">
           <settings>
@@ -951,9 +1431,9 @@
       </method>
     </configuration>
     <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.BaseDaoTest.testGenPass" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.BaseDaoTest.testUpdateRC" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.BaseDaoTest.testGenPass" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BaseDaoTest.testUpdateRC" />
+      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
     </list>
     <recent_temporary>
       <list size="2">
@@ -1036,45 +1516,45 @@
     <option name="totallyTimeSpent" value="117864000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="19" y="23" width="1398" height="877" extended-state="0" />
+    <frame x="-53" y="23" width="1397" height="877" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.75889325" sideWeight="0.12785073" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.54228854" sideWeight="0.22285715" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4004171" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292857" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7602108" sideWeight="0.8721493" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32677165" sideWeight="0.47166362" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.328084" sideWeight="0.4936897" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19366716" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32642856" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.541502" sideWeight="0.7771429" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32674572" sideWeight="0.49600798" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7599502" sideWeight="0.8721493" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32674572" sideWeight="0.47166362" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328084" sideWeight="0.4936897" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50373137" sideWeight="0.48339483" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1724392" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32888147" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32693726" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5432742" sideWeight="0.47356707" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46268657" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24852507" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32999444" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32677165" sideWeight="0.49600798" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5046113" sideWeight="0.48339483" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32221064" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1133,7 +1613,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="67" />
+      <option name="time" value="78" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1142,6 +1622,22 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/modules/biz/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.7777777">
+          <caret line="189" column="35" selection-start-line="189" selection-start-column="35" selection-end-line="189" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ourlife/dev/common/utils/FileUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="87" column="23" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ourlife/dev/terminal/TerminalService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1150,32 +1646,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/3.2.2.RELEASE/spring-core-3.2.2.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="139" column="56" selection-start-line="139" selection-start-column="56" selection-end-line="139" selection-end-column="56" />
+        <state vertical-scroll-proportion="-4.259259">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/rebel.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ourlife/dev/modules/biz/dao/OrderInfoDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24817519">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/3.2.2.RELEASE/spring-aop-3.2.2.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.1">
-          <caret line="447" column="0" selection-start-line="447" selection-start-column="0" selection-end-line="447" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ourlife/dev/terminal/TerminalService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        <state vertical-scroll-proportion="-3.925926">
+          <caret line="463" column="0" selection-start-line="463" selection-start-column="0" selection-end-line="463" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1188,137 +1678,173 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ourlife/dev/modules/biz/entity/OrderInfo.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.2.RELEASE/spring-webmvc-3.2.2.RELEASE.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+        <state vertical-scroll-proportion="-4.259259">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.2.2.RELEASE/spring-beans-3.2.2.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.2.RELEASE/spring-webmvc-3.2.2.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="671" column="0" selection-start-line="671" selection-start-column="0" selection-end-line="671" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.3169399">
+          <caret line="383" column="0" selection-start-line="383" selection-start-column="0" selection-end-line="383" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ourlife/dev/modules/biz/dao/OrderInfoDao.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.2.RELEASE/spring-webmvc-3.2.2.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14480874">
+          <caret line="422" column="0" selection-start-line="422" selection-start-column="0" selection-end-line="422" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.2.RELEASE/spring-webmvc-3.2.2.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14480874">
+          <caret line="438" column="0" selection-start-line="438" selection-start-column="0" selection-end-line="438" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.2.RELEASE/spring-webmvc-3.2.2.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14480874">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.2.RELEASE/spring-web-3.2.2.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14480874">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.2.2.RELEASE/spring-beans-3.2.2.RELEASE.jar!/org/springframework/beans/BeanUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35777125">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.5.0.RELEASE/spring-data-commons-1.5.0.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3783784">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ourlife/dev/modules/biz/service/OrderInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38557214">
+          <caret line="67" column="32" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ourlife/dev/modules/biz/web/OrderInfoDirectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23134328">
+          <caret line="77" column="46" selection-start-line="77" selection-start-column="41" selection-end-line="77" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ourlife/dev/modules/biz/web/OrderInfoController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+          <caret line="656" column="69" selection-start-line="656" selection-start-column="69" selection-end-line="656" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7f627b12-bc43-40fc-8d29-78b172f2bd52/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.6">
+          <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ourlife/dev/modules/biz/entity/ProductHistory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23507462">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ourlife/dev/modules/biz/entity/OrderInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
+          <folding>
+            <element signature="e#6965#6966#0" expanded="true" />
+            <element signature="e#6992#6993#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/decorators.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/head.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9189189">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ourlife/dev/modules/biz/entity/Supplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
+        <state vertical-scroll-proportion="-9.333333">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/cache/ehcache-hibernate-rmi.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/layouts/default.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-7.0">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/cache/ehcache-rmi.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/opensymphony/sitemesh/2.4.2/sitemesh-2.4.2.jar!/META-INF/sitemesh-decorator.tld">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/cache/ehcache-hibernate-local.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/cache/ehcache-local.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.3.0.RELEASE/spring-data-jpa-1.3.0.RELEASE.jar!/org/springframework/data/jpa/repository/support/LockModeRepositoryPostProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8234661">
-          <caret line="71" column="37" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="37" />
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ourlife/dev/common/web/CKFinderConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18456726">
-          <caret line="23" column="49" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/3.2.2.RELEASE/spring-tx-3.2.2.RELEASE.jar!/org/springframework/transaction/annotation/Transactional.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3110872">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ourlife/dev/modules/biz/service/OrderInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="375" column="0" selection-start-line="375" selection-start-column="0" selection-end-line="375" selection-end-column="0" />
-          <folding>
-            <element signature="e#11530#11531#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/3.2.2.RELEASE/spring-tx-3.2.2.RELEASE.jar!/org/springframework/transaction/PlatformTransactionManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16612378">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/3.2.2.RELEASE/spring-tx-3.2.2.RELEASE.jar!/org/springframework/transaction/support/AbstractPlatformTransactionManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16612378">
-          <caret line="30" column="74" selection-start-line="30" selection-start-column="74" selection-end-line="30" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/3.2.2.RELEASE/spring-orm-3.2.2.RELEASE.jar!/org/springframework/orm/jpa/JpaTransactionManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16612378">
-          <caret line="46" column="61" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="83" selection-start-line="54" selection-start-column="69" selection-end-line="54" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ourlife/dev/modules/biz/service/OrderDealJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1326,60 +1852,23 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <caret line="134" column="40" selection-start-line="134" selection-start-column="40" selection-end-line="134" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ourlife/dev/common/persistence/BaseDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/modules/biz/orderPrint.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="320" column="23" selection-start-line="320" selection-start-column="23" selection-end-line="320" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="27.222221">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/modules/biz/orderInfoList.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7f627b12-bc43-40fc-8d29-78b172f2bd52/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.4666667">
-          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.689655">
-          <caret line="620" column="0" selection-start-line="620" selection-start-column="0" selection-end-line="620" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.123046875">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6942149">
+          <caret line="182" column="54" selection-start-line="182" selection-start-column="54" selection-end-line="182" selection-end-column="54" />
           <folding />
         </state>
       </provider>
@@ -1439,7 +1928,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|dev</last-edited>
+          <last-edited>JRebel|dev</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

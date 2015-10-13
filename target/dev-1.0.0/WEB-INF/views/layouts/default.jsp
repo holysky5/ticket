@@ -9,7 +9,7 @@
 		<%@include file="/WEB-INF/views/include/head.jsp" %>
 		<sitemesh:head/>
 	</head>
-	<body>
+	<body style="<sitemesh:getProperty property="body.style"/>">
 		<sitemesh:body/>
 	</body>
 </html>

@@ -44,17 +44,16 @@ public class OrderDealJob {
 	@Autowired
 	JpaTransactionManager tm;
 
-	@Transactional(timeout =5)
+	@Transactional()
 	public void execute() {
 		logger.info("同步远程订单开始...");
 		TerminalService pftService = TerminalFactory.createTerminalService("0");
 		TerminalService bzService = TerminalFactory.createTerminalService("1");
 		TerminalService zybService = TerminalFactory.createTerminalService("2");
-		TerminalService jttService = TerminalFactory.createTerminalService("9");
+		TerminalService jttService = TerminalFactory.createTerminalService("3");
 
 		// 把平台未使用的订单从票付通同步回来
 		List<OrderInfo> list = orderInfoService.getOrdersByStatus("0");
-		logger.info("我执行不了");
 		for (OrderInfo order : list) {
 			try {
 				if (order.getSupplier().getCheckTerminal().equals("0")) {
@@ -63,7 +62,7 @@ public class OrderDealJob {
 					bzService.queryOrder(order);
 				} else if (order.getSupplier().getCheckTerminal().equals("2")) {
 					zybService.queryOrder(order);
-				}else if (order.getSupplier().getCheckTerminal().equals("9")) {
+				}else if (order.getSupplier().getCheckTerminal().equals("3")) {
 					jttService.queryOrder(order);
 				} else if (order.getSupplier().getCheckTerminal().equals("8")) {
 					// 到期自动显示为已使用
